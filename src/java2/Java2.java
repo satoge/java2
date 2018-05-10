@@ -18,7 +18,8 @@ public class Java2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("versió 0.1 del projecte prjava02"); 	
+        System.out.println("versió 0.1 del projecte prjava02"); 
+	System.out.println("branca00 del projecte java02"); 	
         try {
             InetAddress adreça = InetAddress.getLocalHost();
             String hostname = adreça.getHostName();
@@ -31,6 +32,7 @@ public class Java2 {
         catch (IOException e) {
 		System.out.println("Exception occurred");
         }  
+	
     
     }
     
